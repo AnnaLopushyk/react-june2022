@@ -8,6 +8,7 @@ function Simpsons(props) {
         <div>
             {
                 simpsons.map((value, index) => <Simpson key={index} simpon={simpsons}/>)
+
             }
         </div>
     );
