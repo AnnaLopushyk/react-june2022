@@ -7,7 +7,7 @@ function Simpsons(props) {
     return (
         <div>
             {
-                simpsons.map((value, index) => <Simpson key={index} simpon={simpsons}/>)
+                simpsons.map((simpson, index) => <Simpson key={index} simpson={simpson}/>)
 
             }
         </div>

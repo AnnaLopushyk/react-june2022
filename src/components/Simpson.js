@@ -1,13 +1,15 @@
 import React from 'react';
 
 import {simpsons} from "./info";
+
+
 function Simpson(props) {
-    const {value}=props
+    const {simpson}=props
     return (
         <div>
-            <h3>{simpsons.name}--{simpsons.age}</h3>
-            <p>{simpsons.surname}--{simpsons.info}</p>
-            <img src={simpsons.photo} alt={simpsons.name}/>
+            <h3>{simpson.name}--{simpson.age}</h3>
+            <p>{simpson.surname}--{simpson.info}</p>
+            <img src={simpson.photo} alt={simpson.name}/>
         </div>
     );
 }
