@@ -2,8 +2,8 @@ import {axiosService} from "./axios.service";
 import {urls} from "../configs";
 
 
-const userService = {
+const rocketService = {
     getAll: () => axiosService.get(urls.users)
 }
 
-export {userService};
+export {rocketService};
