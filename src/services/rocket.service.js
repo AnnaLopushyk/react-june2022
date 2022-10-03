@@ -3,7 +3,7 @@ import {urls} from "../configs";
 
 
 const rocketService = {
-    getAll: () => axiosService.get(urls.users)
+    getAll: () => axiosService.get(urls.rockets)
 }
 
 export {rocketService};

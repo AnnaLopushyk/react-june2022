@@ -1,8 +1,8 @@
-const baseURL = 'https://jsonplaceholder.typicode.com';
+const baseURL = 'https://api.spacexdata.com/v3/launches';
 
 
 const urls = {
-    users: '/users'
+    rockets: '/'
 }
 
 export {
