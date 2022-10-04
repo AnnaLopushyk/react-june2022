@@ -13,7 +13,7 @@ carService.getAll().then(({data})=>setCars(data))
     }, [])
     return (
         <div>
-          <CarForm setCars={{setCars}}/>
+          <CarForm setCars={setCars}/>
             <hr/>
             {cars.map(car=><Car key ={car.id} car = {car} setCars={setCars}/>)}
         </div>

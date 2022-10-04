@@ -1,0 +1,15 @@
+.Car {
+    border: 1px solid rebeccapurple;
+    margin: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-content: center;
+}
+
+.tools {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.tools button {
+    margin: 5px;
+}
