@@ -1,12 +1,11 @@
-import './App.css';
-import Simpsons from "./components/Simpsons";
+import {Cars} from "./components";
 
 function App() {
     return (
-        <div className="App">
-            <Simpsons/>
+        <div>
+        <Cars/>
         </div>
     );
 }
 
-export default App;
+export {App};
