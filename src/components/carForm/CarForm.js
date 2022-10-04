@@ -17,7 +17,6 @@ const CarForm = ({setCars, carForUpdate, setCarForUpdate}) => {
             setValue('price', carForUpdate.price, {shouldValidate:true})
             setValue('year', carForUpdate.year, {shouldValidate:true})
         }
-
     }, [carForUpdate, setValue])
 
     const submit = async (car) => {
@@ -33,6 +32,7 @@ const CarForm = ({setCars, carForUpdate, setCarForUpdate}) => {
             const {data} = await carService.create(car);
             setCars(cars => [...cars, data])
         }
+
         reset()
     };
     return (

@@ -1,9 +1,9 @@
 import {Cars} from "./components";
 
-function App() {
+const App = () => {
     return (
         <div>
-        <Cars/>
+            <Cars/>
         </div>
     );
 }
